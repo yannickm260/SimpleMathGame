@@ -1,0 +1,58 @@
+# Simple Math Game
+
+## Overview
+
+This is a simple math game built using HTML, CSS (Tailwind CSS), and JavaScript. The game presents users with a random addition problem, and they must input the correct answer. The game provides immediate feedback on whether the answer is correct or wrong.
+
+## Features
+
+- Randomly generated addition problems.
+- Immediate feedback on user input.
+- Score tracking based on correct answers.
+- Option to restart the game after a wrong answer.
+
+## Technologies Used
+
+- **HTML**: Structure of the web page.
+- **Tailwind CSS**: Styling framework for quick and responsive design.
+- **JavaScript**: Logic for generating random numbers, verifying answers, and managing game state.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have a web browser to run the HTML file.
+
+### Installation
+
+Clone the repository : https://github.com/yannickm260/SimpleMathGame.git
+
+### Usage
+
+1. Open the index.html file in your web browser.
+2. You will see a random addition problem displayed.
+3. Input your answer in the text box and click "Submit."
+4. If your answer is correct, a green message will appear, and a new problem will be generated.
+5. If your answer is incorrect, a red message will appear, and you will see your score with an option to restart the game.
+
+## Code Explanation
+
+- **HTML Structure**:
+  - The main structure consists of a header displaying two numbers being added, an input field for user answers, and buttons for submission.
+  
+- **JavaScript Logic**:
+  - The script generates two random numbers between 0 and 10.
+  - It verifies the user's answer against the correct sum.
+  - Feedback is provided based on the user's input, and the score is tracked.
+
+## Contribution
+
+Feel free to fork the repository and make contributions. If you have suggestions or improvements, please open an issue or submit a pull request.
+
+
+## Acknowledgments
+
+- Thanks to [Tailwind CSS](https://tailwindcss.com/) for their excellent styling framework.
+- Inspiration from various online coding resources and tutorials. 
+
+Happy coding!
